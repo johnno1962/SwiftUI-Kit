@@ -34,6 +34,7 @@
 		2DF330BA24BAA8C60034C8D0 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
 		2DF330BB24BAAD720034C8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861EC64924B90DDB005C2F44 /* Assets.xcassets */; };
 		5BE8E05524CE87CB005E833D /* GesturesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8E05424CE87CB005E833D /* GesturesGroup.swift */; };
+		74E969A42A1A1B81008C20A1 /* HotReloading in Frameworks */ = {isa = PBXBuildFile; productRef = 74E969A32A1A1B81008C20A1 /* HotReloading */; };
 		861EC64624B90DD9005C2F44 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
 		861EC64824B90DD9005C2F44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
 		861EC64A24B90DDB005C2F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861EC64924B90DDB005C2F44 /* Assets.xcassets */; };
@@ -200,6 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E969A42A1A1B81008C20A1 /* HotReloading in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +413,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI Kit tvOS";
+			packageProductDependencies = (
+				74E969A32A1A1B81008C20A1 /* HotReloading */,
+			);
 			productName = "SwiftUI Kit tvOS";
 			productReference = 2DF330A024BAA8B80034C8D0 /* SwiftUI Kit tvOS.app */;
 			productType = "com.apple.product-type.application";
@@ -1250,6 +1255,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		74E969A32A1A1B81008C20A1 /* HotReloading */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBFD772825F6206000AAECD3 /* XCRemoteSwiftPackageReference "HotReloading" */;
+			productName = HotReloading;
+		};
 		BBFD772925F6206000AAECD3 /* HotReloading */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BBFD772825F6206000AAECD3 /* XCRemoteSwiftPackageReference "HotReloading" */;
